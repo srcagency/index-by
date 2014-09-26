@@ -1,0 +1,31 @@
+{
+	"name": "index-by",
+	"version": "0.0.1",
+	"description": "Index an array of objects",
+	"main": "index.js",
+	"keywords": [
+		"array",
+		"index"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/srcagency/index-by.git"
+	},
+	"author": {
+		"name": "Thomas Jensen",
+		"email": "thomas@src.agency",
+		"url": "http://src.agency"
+	},
+	"dependencies": {
+		"pluck-key-values": "^0.0.1",
+		"dotty": "^0.0.2"
+	},
+	"devDependencies": {
+		"tape": "^3.0.0"
+	},
+	"scripts": {
+		"test": "node test"
+	},
+	"readmeFilename": "README.md",
+	"license": "MIT"
+}
